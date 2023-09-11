@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+
+<header>
+  <h1 id="title" class="title"> Hello There!</h1>
+  <p id="description"> I'm learning how to code and this page is a result of freeCodeCamp's Responsive Web Design certification!<p>
+</header>
+
+<body>
+  <form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label" class="name">What's your name?
+      <input type="text" id="name" placeholder="Spock" required></input>
+    </label>
+
+    <label for="email" id="email-label" class="email">How about your email address
+      <input type="email" id="email" placeholder="That would be illogical" required></input>
+    <label>
+
+    <label for="number" id="number-label" class="number">How old are you?
+      <input id="number" type="number" min="18" max="120" placeholder="18"></input>
+    </label>
+
+    <label for="dropdown" class="dropdown">How did we meet?
+      <select id="dropdown">
+        <option>(select one)
+        </option>
+        <option>LinkedIn</option>
+        <option>Griffith Mates</option>
+        <option>Griffith University Music Society</option>
+        <option>Degree program</option>
+      </select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label class="franchises">Which is your favourite show out of these two from the Star Trek franchise?
+      <input type="radio" name="shows" value="STE" id="ent" class="inline"><label for="ent">Star Trek: Enterprise
+      </label></input>
+      <input type="radio" name="shows" value="DSN" id="deep" class="inline"><label for="deep">Star Trek: DSN
+      </label></input>
+    </label>
+
+    <label>Please select any other of the below franchises that you enjoy:
+      <input type="checkbox" value="SW">Star Wars</input>
+      <input type="checkbox" value="SG">Stargate</input>
+      <input type="checkbox" value="TO">The Orville</input>
+      <input type="checkbox" value="O">Other</input>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label for="geek">If you selected "Other", please specify:
+      <textarea placeholder="Let out your inner geek" id="geek"></textarea>
+    </label>
+  </fieldset>
+</body>
+  </fieldset>
+    <footer>
+      <button id="submit" value="submit" class="submit">SUBMIT</button>
+    </footer>
+  </form> 
+</html>
